@@ -161,7 +161,7 @@ function getProPasDet(ratings) {
 
 function getNetPrometerScore(data, campus = campusDefault, cohort = cohortDefault) {
   var objNetPrometerScore = null;
-  var ratings = getRatings(data, campus, cohort);
+  var ratings =getRatings(data,  campus, cohort);
 
   objNetPrometerScore = getProPasDet(ratings);
 
